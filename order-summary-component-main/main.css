@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    min-height: 100%;
+    margin: 0;
+    padding: 0;
+    background: url("images/pattern-background-desktop.png") hsl(225, 100%, 94%)  repeat-x;   
+    display : flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    width : 448px;
+    margin: 0px 10px;
+    background: white;
+    font-family: 'Red Hat Display', Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    box-shadow: 0px 20px 50px hsl(224, 23%, 55%);
+}
+
+.card-content img {
+    width: 100%;
+    border-radius: 20px 20px 0px 0px;
+}
+
+h1{
+    font-size: 20px;
+    font-weight: 900;
+    color:hsl(223, 47%, 23%);
+}
+
+h2 {
+    font-weight: bold;
+    font-size: 16px;
+    color: hsl(223, 47%, 23%);
+}
+
+p {
+    font-size: 16px;
+    color: hsl(224, 23%, 55%);
+    font-weight: 500;
+}
+
+.card-text {
+    padding: 20px 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.card-text p {
+    line-height: 25px;
+}
+
+.nedia-box {
+    margin: 10px 40px ;
+    padding: 20px 30px ;
+    background-color:hsl(225, 100%, 98%);
+    border-radius: 10px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;    
+}
+
+
+.media-box img {
+        width: 50px;
+        height: 50px;
+    }
+
+
+    .media-box-text {
+        display: flex;
+        flex-direction: column;
+        padding-right: 30px ;
+    }
+
+
+    .media-box-text h2,p {
+        margin: 0;
+    }
+
+
+    .change {
+        padding-left: 30px;
+        font-weight: 700;
+    }
+
+    button{
+        margin: 20px 40px 10px 40px;
+        padding: 15px 30px;
+        background-color:hsl(245, 75%, 52%);
+        color: whitesmoke;
+        font-weight: 900;
+        border-radius: 20px;
+        font-size: 14px;
+        border:none;
+        box-shadow: 0px 22px 20px hsl(225, 100%, 94%);
+    }
+
+
+    .cancel_order {
+        display: flex;
+        justify-content: center;
+        font-size: 14px;
+        font-weight: bold;
+        padding: 25px 0 40px 0;
+    }
+    
+    .cancel_order a {
+        color: hsl(224, 23%, 55%);
+        text-decoration: none;
+    }
